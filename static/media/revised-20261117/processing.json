@@ -1,0 +1,122 @@
+{
+  "sourceFiles": {
+    "method": "overview_mask3.pdf",
+    "video": "demo_revised.mp4"
+  },
+  "sourceSha256": {
+    "method": "b30555c106d1bf4bbd9cdba495a30b2774faeca59062b03c9e9a1afebf785185",
+    "video": "04cc5bb752367a5d73016bfcddf251b670a6169e02d097bf66d65c82067b3694"
+  },
+  "renderDpi": 240,
+  "sourceFps": 24,
+  "failureCasesIncluded": false,
+  "failureSectionStartFrame": 4984,
+  "clips": [
+    {
+      "group": "real-world",
+      "task": "pour-water",
+      "sourceStartFrame": 1069,
+      "sourceEndFrameExclusive": 1304,
+      "sourceStartSeconds": 44.541666666666664,
+      "sourceEndSecondsExclusive": 54.333333333333336,
+      "durationSeconds": 9.791667,
+      "weightsTrainingTask": "Pour Water",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/pour-water.mp4",
+      "poster": "real-world/pour-water.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "place-teabag",
+      "sourceStartFrame": 2268,
+      "sourceEndFrameExclusive": 2612,
+      "sourceStartSeconds": 94.5,
+      "sourceEndSecondsExclusive": 108.83333333333333,
+      "durationSeconds": 14.333333,
+      "weightsTrainingTask": "Place Teabag",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/place-teabag.mp4",
+      "poster": "real-world/place-teabag.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "place-atomizer",
+      "sourceStartFrame": 1612,
+      "sourceEndFrameExclusive": 1921,
+      "sourceStartSeconds": 67.16666666666667,
+      "sourceEndSecondsExclusive": 80.04166666666667,
+      "durationSeconds": 12.875,
+      "weightsTrainingTask": "Place Atomizer",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/place-atomizer.mp4",
+      "poster": "real-world/place-atomizer.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "lower-cover",
+      "sourceStartFrame": 2999,
+      "sourceEndFrameExclusive": 3424,
+      "sourceStartSeconds": 124.95833333333333,
+      "sourceEndSecondsExclusive": 142.66666666666666,
+      "durationSeconds": 17.708333,
+      "weightsTrainingTask": "Lower Cover",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/lower-cover.mp4",
+      "poster": "real-world/lower-cover.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "close-drawer",
+      "sourceStartFrame": 3804,
+      "sourceEndFrameExclusive": 4040,
+      "sourceStartSeconds": 158.5,
+      "sourceEndSecondsExclusive": 168.33333333333334,
+      "durationSeconds": 9.833333,
+      "weightsTrainingTask": "Close Drawer",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/close-drawer.mp4",
+      "poster": "real-world/close-drawer.jpg"
+    },
+    {
+      "group": "exploratory",
+      "task": "multiple-references",
+      "sourceStartFrame": 4680,
+      "sourceEndFrameExclusive": 4984,
+      "sourceStartSeconds": 195.0,
+      "sourceEndSecondsExclusive": 207.66666666666666,
+      "durationSeconds": 12.666667,
+      "weightsTrainingTask": "Pour Water",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "exploratory/multiple-references.mp4",
+      "poster": "exploratory/multiple-references.jpg"
+    },
+    {
+      "group": "exploratory",
+      "task": "unseen-tasks",
+      "sourceStartFrame": 4386,
+      "sourceEndFrameExclusive": 4668,
+      "sourceStartSeconds": 182.75,
+      "sourceEndSecondsExclusive": 194.5,
+      "durationSeconds": 11.75,
+      "weightsTrainingTask": "Place Teabag",
+      "selectedExecution": 1,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "exploratory/unseen-tasks.mp4",
+      "poster": "exploratory/unseen-tasks.jpg"
+    }
+  ],
+  "videoUpdatedOn": "2026-11-18"
+}

@@ -1,0 +1,89 @@
+{
+  "sourceFiles": {
+    "video": "demo_revised.mp4"
+  },
+  "sourceSha256": {
+    "video": "04cc5bb752367a5d73016bfcddf251b670a6169e02d097bf66d65c82067b3694"
+  },
+  "sourceFps": 24,
+  "failureCasesIncluded": false,
+  "failureSectionStartFrame": 4984,
+  "clips": [
+    {
+      "group": "real-world",
+      "task": "pour-water",
+      "sourceStartFrame": 1316,
+      "sourceEndFrameExclusive": 1600,
+      "sourceStartSeconds": 54.833333333333336,
+      "sourceEndSecondsExclusive": 66.66666666666667,
+      "durationSeconds": 11.833333,
+      "weightsTrainingTask": "Pour Water",
+      "selectedExecution": 2,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/pour-water-2.mp4",
+      "poster": "real-world/pour-water-2.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "place-teabag",
+      "sourceStartFrame": 2624,
+      "sourceEndFrameExclusive": 2987,
+      "sourceStartSeconds": 109.33333333333333,
+      "sourceEndSecondsExclusive": 124.45833333333333,
+      "durationSeconds": 15.125,
+      "weightsTrainingTask": "Place Teabag",
+      "selectedExecution": 2,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/place-teabag-2.mp4",
+      "poster": "real-world/place-teabag-2.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "place-atomizer",
+      "sourceStartFrame": 1933,
+      "sourceEndFrameExclusive": 2256,
+      "sourceStartSeconds": 80.54166666666667,
+      "sourceEndSecondsExclusive": 94.0,
+      "durationSeconds": 13.458333,
+      "weightsTrainingTask": "Place Atomizer",
+      "selectedExecution": 2,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/place-atomizer-2.mp4",
+      "poster": "real-world/place-atomizer-2.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "lower-cover",
+      "sourceStartFrame": 3436,
+      "sourceEndFrameExclusive": 3786,
+      "sourceStartSeconds": 143.16666666666666,
+      "sourceEndSecondsExclusive": 157.75,
+      "durationSeconds": 14.583333,
+      "weightsTrainingTask": "Lower Cover",
+      "selectedExecution": 2,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/lower-cover-2.mp4",
+      "poster": "real-world/lower-cover-2.jpg"
+    },
+    {
+      "group": "real-world",
+      "task": "close-drawer",
+      "sourceStartFrame": 4052,
+      "sourceEndFrameExclusive": 4307,
+      "sourceStartSeconds": 168.83333333333334,
+      "sourceEndSecondsExclusive": 179.45833333333334,
+      "durationSeconds": 10.625,
+      "weightsTrainingTask": "Close Drawer",
+      "selectedExecution": 2,
+      "sourcePlaybackSpeed": "5x",
+      "additionalSpeedChange": false,
+      "video": "real-world/close-drawer-2.mp4",
+      "poster": "real-world/close-drawer-2.jpg"
+    }
+  ],
+  "videoUpdatedOn": "2026-11-18"
+}
