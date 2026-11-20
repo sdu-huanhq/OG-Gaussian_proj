@@ -11,7 +11,7 @@
   <link rel="icon" type="image/svg+xml" href="static/images/favicon.svg">
   <link rel="stylesheet" href="static/css/index.css?v=20261118-2">
   <!-- Edit content.js to connect the anonymous code repository and all media. -->
-  <script defer src="static/js/content.js?v=20261118-2"></script>
+  <script defer src="static/js/content.js?v=20261120"></script>
   <script defer src="static/js/index.js?v=20261118-3"></script>
 </head>
 <body>
@@ -35,7 +35,7 @@
     <section class="paper-section abstract-section" id="abstract" aria-labelledby="abstract-title">
       <div class="reading-width">
         <h2 id="abstract-title">Abstract</h2>
-        <p class="abstract-text">Object goal-state generation predicts the manipulated component’s configuration relative to a reference component for robotic manipulation. Point-cloud methods mainly optimize geometric objectives without image-space constraints, which may generate geometrically accurate but visually implausible goal states. While some studies use 3D Gaussian Splatting (3DGS) for image-space supervision, they focus on scene-level dynamics and inadequately capture cross-component relationships, limiting manipulation accuracy. To address these issues, we propose OG-Gaussian, a generation framework for goal-state generation in Gaussian primitive space. To model the evolving geometric relation between components, we construct a Continuous Gaussian Response Field (CGR), which queries the scalar response and spatial gradient of the response field formed by the reference Gaussian primitives at the manipulated primitives and updates them along the generation trajectory, providing state-dependent anisotropic geometric conditioning for goal-state generation. We further use differentiable rendering to integrate multi-view photometric supervision with geometric supervision to improve geometric–visual consistency. Experiments on five robot manipulation tasks demonstrate improved geometric accuracy and visual quality over the evaluated baselines, with competitive sim-to-real transfer performance.</p>
+        <p class="abstract-text">Object goal-state generation predicts the manipulated component’s configuration relative to a reference component for robotic manipulation. Point-cloud methods mainly optimize geometric objectives without image-space constraints, which may generate geometrically accurate but visually implausible goal states. While some studies use 3D Gaussian Splatting (3DGS) for image-space supervision, they focus on scene-level dynamics and inadequately capture cross-component relationships, limiting manipulation accuracy. To address these issues, we propose OG-Gaussian, a framework for goal-state generation in Gaussian primitive space. To model the evolving geometric relation between components, we construct a Continuous Gaussian Response Field (CGR), which queries the scalar response and spatial gradient of the response field formed by the reference Gaussian primitives at the manipulated primitives and updates them along the generation trajectory, providing state-dependent geometric conditioning for goal-state generation. We further use differentiable rendering to integrate multi-view photometric supervision with geometric supervision to improve geometric–visual consistency. Experiments on five robot manipulation tasks demonstrate improved geometric accuracy and visual quality over the evaluated baselines, with competitive sim-to-real transfer performance.</p>
       </div>
     </section>
 

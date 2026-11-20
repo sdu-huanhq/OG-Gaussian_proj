@@ -18,7 +18,7 @@
 
     // Static method figure only. Optional: fullsize for a higher-resolution image.
     method: {
-      src: "static/media/revised-20261117/method/overview.png",
+      src: "static/media/revised-20261117/method/overview.png?v=64f5a09b85",
       fullsize: "",
       alt: "Overview of the OG-Gaussian framework for object goal-state generation."
     },
